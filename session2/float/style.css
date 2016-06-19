@@ -1,0 +1,43 @@
+#wraper {
+    width: 800px;
+    outline: 1px solid #cccccc;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 77px;
+    background-color: orange;
+    margin-bottom: 12px;
+}
+
+#sidebarL {
+    background-color: blue;
+    margin-bottom: 12px;
+    width: 150px;
+    float: left;
+}
+
+#sidebarR {
+    background-color: blue;
+    margin-bottom: 12px;
+    width: 150px;
+    float: right;
+}
+
+#content {
+    background-color: red;
+    margin: 0 auto 12px auto;
+    width: 460px;
+}
+
+#footer {
+    height: 77px;
+    background-color: black;
+    margin-bottom: 12px;
+}
+
+.clear {
+    clear: both;
+}
+

@@ -1,0 +1,13 @@
+body {
+    background-image: url("NatureVologda.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /*background-size: cover;*/
+}
+
+p {
+    /*border: 1px solid blue;*/
+    outline: 1px solid blue;
+}
