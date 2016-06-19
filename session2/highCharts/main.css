@@ -1,0 +1,5 @@
+#container, #container2, #container3,#container4, #container5, #container6 {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto;
+}
