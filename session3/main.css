@@ -1,0 +1,334 @@
+#header {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 94px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+#subheader {
+    margin-top: 200px;
+    z-index: 2;
+    color: white;
+    padding: 3px;
+}
+
+#subheader a {
+    color: white;
+    border: 1px solid white;
+    padding: 5px 13px;
+    margin: 5px;
+    font-size: 12px
+}
+
+#subheader p {
+    margin-bottom: 20px;
+}
+
+#subheader a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.default-logo {
+    margin-left: 5px;
+    mergin-top: 5px;
+}
+
+#bgvideo {
+    position: absolute;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+}
+
+#bgvideo2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -99;
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#logo {
+    margin: 10px 0 10px 40px;
+}
+
+.text-bigger {
+    font-size: 18px
+}
+
+#slogan {
+    font-size: 60px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.navbar-nav .dropdown a {
+    font-size: 12px;
+    background-color: black;
+
+}
+
+.row-3 {
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+.explanation {
+    color: gray;
+    font-size: 12px;
+}
+
+.row {
+}
+
+.dropdown-submenu:hover>.dropdown-menu{display:inline;}
+.dropdown:hover>.dropdown-menu{display:inline;}
+
+.myNavbar1 {
+    margin: 15px;
+    font-size: 20px;
+}
+
+ul.fa-ul li {
+    display: block;
+    margin: 15px;
+    font-size: 12px;
+}
+
+ul.fa-ul li:before {
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 0px;
+    top: 3px;
+    color: green;
+}
+
+ul.fa-ul {
+    padding-left: 0px;
+    color: gray;
+}
+
+#btn-learn-more {
+    border: 1px solid black;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+}
+
+.fermentum {
+    color: #72c02c;
+}
+
+.line-center {
+    width: 30px;
+    border: 1px solid #72c02c;
+}
+
+.line-left {
+    width: 35px;
+
+}
+
+.line-left hr {
+    border: 1px solid #72c02c;
+}
+
+.project-tag a {
+    color: gray;
+}
+
+.project-tag a:hover {
+    color: #72c02c;
+}
+
+.smaller {
+    font-size: 12px;
+}
+
+a img {
+    margin-bottom: 20px;
+}
+
+#row7 {
+    background-image: url(http://htmlstream.com/preview/unify-v1.9.4/assets/img/patterns/16.png);
+    background-attachment: fixed;
+}
+
+#row9 {
+    background-image: url(http://htmlstream.com/preview/unify-v1.9.4/assets/img/bg/11.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #eee;
+}
+
+#btn-view-more {
+    background-color: #72c02c;
+    width: 100px;
+    height: 35px;
+    color: white;
+}
+
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    color: green;
+}
+
+.dropdown ul *  {
+    background-color: white !important;
+}
+
+.shopping-cart-open {
+    display: none;
+}
+.shop:hover>.shopping-cart-open {
+    display: block;
+    background-color: white;
+    color: black;
+    width: 200px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#buy-btn {
+    background-color: #72c02c;
+    color: white;
+    padding: 5px;
+    margin-right: 40px;
+}
+
+#what-people {
+    color: white;
+}
+
+.row9-img {
+    background: rgba(0, 0, 0, 0.2);
+    width: 31%;
+    margin: 10px;
+}
+
+.row9-img img {
+    margin: 30px auto;
+}
+
+.row9-img p:nth-child(3) {
+    color: #72c02c;
+    font-size:12px;
+}
+
+.rounded-x {
+    background-color: #eee;
+
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+.icons-text {
+    color: gray;
+}
+
+.row11{
+    background: rgba(0,0,0,0.85);
+    padding: 30px 10px;
+}
+
+.row11 div:nth-child(1) {
+    color: white;
+}
+
+.headline, dl {
+    color: gray;
+}
+
+
+.headline {
+    font-size: 20px;
+    border-bottom: 2px solid #72c02c;
+}
+
+dd a, dd a:hover {
+    color: white;
+}
+
+.hr-gray {
+    margin: 5px auto;
+    border-color: gray;
+}
+
+.row11 div:nth-child(3) ul li {
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+}
+
+.row11 div:nth-child(3) ul li:after {
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    position: relative;
+    margin-left: 100px;
+    top: 3px;
+    color: white;
+}
+.row11 div:nth-child(3) ul li a {
+    color: white;
+}
+
+.row11 div:nth-child(4) address {
+    color: white;
+    font-size: 12px;
+}
+.row11 div:nth-child(4) address a {
+    color: #72c02c;
+}
+
+.row11 div:nth-child(4) {
+    background-image: url(http://www.clker.com/cliparts/d/c/a/2/11949843562058740961world_map_saint_.svg.hi.png);
+    background-size: 100% 100%;
+}
+
+.row12 div:nth-child(1) p {
+    color: white;
+    font-size: 12px;
+}
+.row12 div:nth-child(1) p a {
+    color: #72c02c;
+}
+.row12 div:nth-child(2) * {
+    color: gray;
+    text-align: right;
+}
+.row12 {
+    background: rgba(0,0,0,1);
+    padding: 20px;
+}
+
+
+/* * {
+    border: 1px solid red;
+} */
