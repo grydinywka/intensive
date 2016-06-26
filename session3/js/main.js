@@ -1,5 +1,20 @@
 $(document).ready(function() {
     var isAnimated = false;
+    new WOW().init();
+    var wow1 = new WOW({
+        boxClass:     'slogan',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null // optional scroll container selector, otherwise use window
+    });
+
+    wow1.init();
 
     $( window ).scroll(function(event) {
         var st = $(this).scrollTop();
@@ -20,7 +35,6 @@ $(document).ready(function() {
     $("#subheader").css("height", h);
 
     $(".dropdown").click(function() {
-//        $(this).preventDefault();
         return false;
     });
 
@@ -40,4 +54,11 @@ $(document).ready(function() {
          itemsMobile : false
 
     });
+
+//    $("#test").click(function(){
+//    $("#slogan").css({"display": "none"}).delay(1800).fadeIn( 1800, function() {
+//        alert("Success");
+//    } );
+//    $("#slogan").css({"opacity": 0}).animate({fontSize: "3em"});
+//    });
 });

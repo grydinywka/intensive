@@ -4,7 +4,6 @@
     <title>Home Basic 3 | Unify - Responsive Website Template</title>
 
     <meta charset="UTF-8"/>
-    <title>Chosen</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -27,7 +26,10 @@
     <!-- Simple line icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
 
-    <link rel="stylesheet" href="main.css">
+    <!-- WOW css animate-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 
@@ -830,8 +832,8 @@
     </div>
 </nav>
 
-<div id="bgvideo2">
-    <video width="100%" autobuffer="true" loop="true" autoplay>
+<div >
+    <video autobuffer="true" loop="true" autoplay id="bgvideo2">
             <source src="bgvideo.mp4" type="video/mp4">
     </video>
 </div>
@@ -841,13 +843,33 @@
     <!--</iframe>-->
 <!--</div>-->
 <div id="subheader">
-    <p class="text-center text-bigger">NEW - SLEEK - STYLISH - MODERN</p>
-    <p class="text-center"><span id="slogan">WE ARE CREATIVE COMPANY</span></p>
-    <p class="text-center text-bigger">Unify creative technology company providing key digital services.</p>
-    <div class="text-center">
-        <a href="#" class="btn-u btn-u-xs btn-brd  btn-brd-hover btn-u-light btn-u-block margin-right-10">LEARN MORE</a>
-        <a href="#" class="btn-u btn-u-xs btn-brd  btn-brd-hover btn-u-light btn-u-block">DOWNLOAD NOW</a>
-    </div>
+    <section class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+        <p class="text-center text-bigger">NEW -
+        SLEEK - STYLISH - MODERN</p>
+    </section>
+    <section class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.5s">
+        <p class="text-center">
+            <span id="slogan">
+                WE ARE CREATIVE COMPANY
+            </span>
+        </p>
+    </section>
+    <section class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="4s">
+        <p class="text-center text-bigger">Unify creative technology company providing key digital services.</p>
+    </section>
+    <section class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="5s">
+        <div class="text-center">
+            <a href="#" id="test"
+               class="btn-u btn-u-xs btn-brd  btn-brd-hover btn-u-light btn-u-block margin-right-10">LEARN
+                MORE</a>
+            <a href="#" class="btn-u btn-u-xs btn-brd  btn-brd-hover btn-u-light btn-u-block">DOWNLOAD NOW</a>
+        </div>
+    </section>
+    <section class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="5s">
+        <div class="text-center">
+
+        </div>
+    </section>
 </div>
 <div class="container">
     <!-- row 3 -->
@@ -972,13 +994,13 @@
                 <p class="smaller">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas moles</p>
             </div>
             <div class="row">
-                <ul class="col-xs-6 fa-ul">
+                <ul class="col-xs-5 fa-ul">
                     <li>Donec id elit non mi porta gravida</li>
                     <li>Corporate and Creative</li>
                     <li>Responsive Bootstrap Template</li>
                     <li>Corporate and Creative</li>
                 </ul>
-                <ul class="col-xs-6 fa-ul">
+                <ul class="col-xs-5 fa-ul">
                     <li>Donec id elit non mi porta gravida</li>
                     <li>Corporate and Creative</li>
                     <li>Responsive Bootstrap Template</li>
@@ -1244,7 +1266,9 @@
 <!-- Font Awesome -->
 <script src="https://use.fontawesome.com/a22aea68cd.js"></script>
 
+<!-- WOW JS -->
+<script src="js/wow.min.js"></script>
 
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
