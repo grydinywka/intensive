@@ -43,6 +43,23 @@
     mergin-top: 5px;
 }
 
+#row2 {
+    height: 100vh;
+}
+
+.video-block {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -99;
+    overflow:hidden;
+    width: 100%;
+    background-size: cover;
+}
+#test_video { /* for bg video */
+    height: 100vh;
+}
+
 #bgvideo {
     position: absolute;
     z-index: -99;
@@ -59,7 +76,7 @@
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
+    height: 100vh;
     background-size: cover;
     /*
     height: 100vh;
