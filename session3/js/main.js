@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     var isAnimated = false;
     new WOW().init();
@@ -61,4 +62,9 @@ $(document).ready(function() {
 //    } );
 //    $("#slogan").css({"opacity": 0}).animate({fontSize: "3em"});
 //    });
+    setTimeout(function(){
+//        document.getElementById("id_test_video").play();
+        $('#test_video').get(0).play();
+    }, 5000);
+
 });
